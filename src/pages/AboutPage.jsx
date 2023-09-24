@@ -3,7 +3,7 @@ import profileImage from '../assets/images/profile.jpg';
 export default function AboutPage() {
   return (
     <div className="page-wrapper">
-      <div className="page-section" id="about">
+      <section className="page-section" id="about">
         <div id="about-content">
           <header>
             <h1>Hello! I'm Avery, a full stack web developer.</h1>
@@ -28,7 +28,7 @@ export default function AboutPage() {
         <div id="about-image-lg">
           <img className="profile-image" src={profileImage} alt="Avery Miller"/>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
