@@ -21,17 +21,22 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-nav {
-  position: fixed;
-  background-color: var(--main-color);
+#nav-header {
+  display: flex;
+  justify-content:space-between;
   box-shadow: 0 1rem 8rem lightgray;
+  background-color: var(--main-color);
+}
+
+#nav-header h1 {
+  margin: 0 30px;
+}
+
+nav {
   padding: 10px 15px;
-  z-index: 1;
-  width: 100vw;
 }
 
 #nav-items {
-  width: 1000px;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
@@ -39,15 +44,11 @@ nav {
   align-items: center;
 }
 
-#nav-items > div {
-  min-width: 30%;
-}
-
 nav a,
 nav h4 {
   color: rgb(0, 0, 0);
   text-decoration: none;
-  margin: 0 10px 0 0;
+  margin: 0 30px 0 0;
   font-size: 1.25rem;
   font-weight: normal;
 }
@@ -68,18 +69,16 @@ nav div {
   align-items: center;
 }
 
-.dropdown {
-  display: none;
+footer {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  font-size: 250%;
 }
 
-.dropdown-item {
-  margin: 0;
+footer a {
+  margin: 0px 20px 20px 20px;
 }
-
-.dropdown-menu .resume {
-  display: none;
-}
-
 
 button.btn.btn-secondary.dropdown-toggle {
   background-color: var(--accent-color);
@@ -100,7 +99,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 80vh;
 }
 
 .page-section {
