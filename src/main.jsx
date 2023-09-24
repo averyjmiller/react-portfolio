@@ -2,7 +2,7 @@ import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
-// import './index.css';
+import './index.css';
 
 import App from './App'
 import AboutPage from './pages/AboutPage';
@@ -12,7 +12,7 @@ import ResumePage from './pages/ResumePage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/react-portfolio/',
     element: <App />,
     children: [
       {
