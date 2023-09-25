@@ -6,13 +6,13 @@ export default function Navigation() {
     <Navbar
       links={[
         <Link key={1} to="./about">
-          About
+          About Me
         </Link>,
         <Link key={2} to="./work">
           Projects
         </Link>,
         <Link key={3} to="./contact">
-          Contact Me
+          Contact
         </Link>,
         <Link key={4} to="./resume">
           Resume
