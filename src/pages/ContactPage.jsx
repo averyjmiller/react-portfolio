@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-import { useForm, ValidationError } from '@formspree/react';
+import { ValidationError } from '@formspree/react';
 
 export default function ContactPage() {
-  const [state, handleSubmit] = useForm('mnqkblyl');
   const [emailValid, setEmailValid] = useState(true);
   const [messageEmpty, setMessageEmpty] = useState(false);
   const [nameValid, setNameValid] = useState(true);
@@ -41,7 +40,7 @@ export default function ContactPage() {
         <p>Leave a message for me and I'll get back to you as soon as I can.</p>
       </div>
       <div className='row contact-form justify-content-center'>
-        <form className='form-control ' onSubmit={handleSubmit}>
+        <form className='form-control '>
           <label className='form-label' htmlFor='name'>
             Name
           </label>
