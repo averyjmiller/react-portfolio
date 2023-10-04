@@ -18,6 +18,8 @@ My portfolio as a React Application.
 ## Usage
 Visit the deployed application [here](https://averyjmiller.github.io/react-portfolio/).
 
+![react-portfolio](https://github.com/averyjmiller/react-portfolio/assets/54604339/bd44b005-7f6c-4865-89a6-b6827474c2d1)
+
 ## License
 This repository is covered under MIT License. For more information, check the `LICENSE` file.
 
