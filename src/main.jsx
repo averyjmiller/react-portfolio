@@ -12,7 +12,7 @@ import ResumePage from './pages/ResumePage';
 
 const router = createBrowserRouter([
   {
-    path: '/react-portfolio/',
+    path: '/',
     element: <App />,
     children: [
       {
