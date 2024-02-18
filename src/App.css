@@ -1,5 +1,6 @@
 * {
   box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
 
 :root {
@@ -208,6 +209,10 @@ h1 {
 
 #contact a {
   text-decoration: none;
+}
+
+.form-label {
+  margin-top: 0.5rem;
 }
 
 #resume a {
