@@ -16,7 +16,7 @@ export default function AboutPage() {
             Hello! I'm Avery, a full stack web developer.
           </p>
           <p>
-            I am currently studying through The Ohio State University's coding boot camp. 
+            I am a graduate of the Full-Stack Flex Coding Boot Camp program through Ohio State University. 
             I am passionate about creating accessible and fluid web apps with an innovative back-end!
           </p>
           <p>
