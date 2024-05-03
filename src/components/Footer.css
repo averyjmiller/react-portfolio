@@ -1,0 +1,28 @@
+footer {
+  text-align: center;
+}
+
+.social-wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 175%;
+  padding-bottom: 30px;
+}
+
+.social-link {
+  color: #757575;
+  padding: 0 20px;
+}
+
+.footer-line {
+  border: 1px solid #757575;
+  max-width: 200px;
+  width: 15%;
+  height: 0px;
+}
+
+.copyright {
+  color: #757575;
+}

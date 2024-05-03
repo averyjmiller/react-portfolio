@@ -1,13 +1,20 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedinIn, faGithub } from '@fortawesome/free-brands-svg-icons';
+import { faLinkedin, faGithub, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import './Footer.css';
 
 export default function Footer() {
   return (
     <footer>
-      <a href="mailto:averymiller2060@gmail.com"><FontAwesomeIcon icon={faEnvelope} /></a>
-      <a href="https://www.linkedin.com/in/avery-j-miller" target="_blank"><FontAwesomeIcon icon={faLinkedinIn} /></a>
-      <a href="https://github.com/averyjmiller" target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+      <div className="social-wrapper">
+        <div className="footer-line"></div>
+        <div className="link-wrapper">
+          <a href="https://www.linkedin.com/in/avery-j-miller" className='social-link' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+          <a href="https://github.com/averyjmiller" className='social-link' target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+          <a href="https://www.instagram.com/avejmiller/" className='social-link' target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+        </div>
+        <div className="footer-line"></div>
+      </div>
+      <small className='copyright'>&copy; Copyright 2024, Avery Miller</small>
     </footer>
   );
 }
