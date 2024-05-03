@@ -1,8 +1,8 @@
 import Project from '../components/Project';
+import projects from '../js/projects';
+import './PortfolioPage.css';
 
-import projects from '../projects';
-
-export default function WorkPage() {
+export default function PortfolioPage() {
   return (
     <section className="page-section" id="projects">
       <header>
