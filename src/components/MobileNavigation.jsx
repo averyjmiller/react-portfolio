@@ -1,10 +1,10 @@
 import { Link } from 'react-router-dom';
-import Navbar from './UI/Navbar';
-import './Navigation.css'
+import MobileNavbar from './UI/MobileNavbar';
+import './MobileNavigation.css'
 
-export default function Navigation() {
+export default function MobileNavigation() {
   return (
-    <Navbar
+    <MobileNavbar
       links={[
         <Link key={1} to='./about'>
           About
