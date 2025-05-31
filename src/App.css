@@ -2,9 +2,16 @@
   font-family: "Poppins", sans-serif;
 } */
 
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
 .wrapper {
   margin: 100px auto;
   max-width: 1000px;
+  flex: 1;
 }
 
 .container-fluid {
