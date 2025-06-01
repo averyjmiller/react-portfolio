@@ -24,3 +24,15 @@
 p {
   color: #b4b4b4;
 }
+
+.button-style {
+  text-decoration: none;
+  background-color: #ff0000;
+  color: white;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.button-style:hover {
+  background-color: #c90000;
+}

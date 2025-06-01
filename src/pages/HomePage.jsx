@@ -8,11 +8,14 @@ export default function HomePage() {
       <div className="container-fluid">
         <div className="row justify-content-between">
           <div className="col-12 col-md-6 pb-5 d-flex align-items-center">
-            <h1 id="home-header">
-              <div>Hi,</div>
-              <div>I'm <span id="avery-text">Avery</span></div>
-              <div>Full Stack Developer</div>
-            </h1>
+            <div className='home-info-wrapper'>
+              <h1 id="home-header">
+                <div>Hi,</div>
+                <div>I'm <span id="avery-text">Avery</span></div>
+                <div>Full Stack Developer</div>
+              </h1>
+              <a href="./contact" className='button-style'>Contact Me</a>
+            </div>
           </div>
           <div className="col-12 col-md-5 text-center">
             <img src={homePicture} id="homePicture" alt="Avery Miller" />

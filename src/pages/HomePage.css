@@ -16,7 +16,7 @@ h1 {
 }
 
 #avery-text {
-  color: rgb(255, 0, 0);
+  color: #ff0000;
 }
 
 @media (max-width: 767px) {
