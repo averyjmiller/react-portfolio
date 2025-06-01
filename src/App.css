@@ -3,9 +3,12 @@
 } */
 
 #root {
+  position: relative;
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  color: white;
+  background-color: #212429;
 }
 
 .wrapper {
