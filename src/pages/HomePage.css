@@ -1,4 +1,4 @@
-#homepageProfile {
+#homePicture {
   width: 100%;
   object-fit: cover;
 }
@@ -7,8 +7,20 @@ h1 {
   padding: 0 0 20px 0;
 }
 
-@media (max-width: 576px) {
-  #homepageProfile {
+#home-header {
+  font-size: 50px;
+}
+
+#home-header > * {
+  padding: 10px 0 0 0;
+}
+
+#avery-text {
+  color: rgb(255, 0, 0);
+}
+
+@media (max-width: 767px) {
+  #homePicture {
     width: 70%;
   }
 }
