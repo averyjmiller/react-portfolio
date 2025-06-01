@@ -20,7 +20,7 @@ export default function Footer() {
         </div>
         <div className="footer-line"></div>
       </div>
-      <small className='copyright'>&copy; Copyright 2024, Avery Miller</small>
+      <small className='copyright'>&copy; Copyright 2025, Avery Miller</small>
     </footer>
   );
 }
