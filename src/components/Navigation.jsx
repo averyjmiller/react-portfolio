@@ -6,16 +6,19 @@ export default function Navigation() {
   return (
     <Navbar
       links={[
-        <Link key={1} to='./about'>
+        <Link key={1} to='./'>
+          Home
+        </Link>,
+        <Link key={2} to='./about'>
           About
         </Link>,
-        <Link key={2} to='./portfolio'>
+        <Link key={3} to='./portfolio'>
           Portfolio
         </Link>,
-        <Link key={3} to='./resume'>
+        <Link key={4} to='./resume'>
           Resume
         </Link>,
-        <Link key={4} to='./contact'>
+        <Link key={5} to='./contact'>
           Contact
         </Link>
       ]}
