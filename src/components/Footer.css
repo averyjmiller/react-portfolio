@@ -12,17 +12,26 @@ footer {
 }
 
 .social-link {
-  color: #757575;
+  display: inline-block;
+  color: #b4b4b4;
   padding: 0 20px;
 }
 
+.social-icon {
+  color: #b4b4b4;
+}
+
+.social-icon:hover {
+  color: #7e7e7e;
+}
+
 .footer-line {
-  border: 1px solid #757575;
+  border: 1px solid #b4b4b4;
   max-width: 200px;
   width: 15%;
   height: 0px;
 }
 
 .copyright {
-  color: #757575;
+  color: #b4b4b4;
 }

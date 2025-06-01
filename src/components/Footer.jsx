@@ -8,9 +8,15 @@ export default function Footer() {
       <div className="social-wrapper">
         <div className="footer-line"></div>
         <div className="link-wrapper">
-          <a href="https://www.linkedin.com/in/avery-j-miller" className='social-link' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
-          <a href="https://github.com/averyjmiller" className='social-link' target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
-          <a href="https://www.instagram.com/avejmiller/" className='social-link' target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+          <div className='social-link'>
+            <a href="https://www.linkedin.com/in/avery-j-miller" className='social-icon' target="_blank"><FontAwesomeIcon icon={faLinkedin} /></a>
+          </div>
+          <div className='social-link'>
+            <a href="https://github.com/averyjmiller" className='social-icon' target="_blank"><FontAwesomeIcon icon={faGithub} /></a>
+          </div>
+          <div className='social-link'>
+            <a href="https://www.instagram.com/avejmiller/" className='social-icon' target="_blank"><FontAwesomeIcon icon={faInstagram} /></a>
+          </div>
         </div>
         <div className="footer-line"></div>
       </div>
